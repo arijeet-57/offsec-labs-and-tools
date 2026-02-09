@@ -1,4 +1,4 @@
-# SQL Injection Lab - Product Category Filter
+# SQL Injection Lab - Non Oracle Based Database
 
 ## Lab Overview
 
